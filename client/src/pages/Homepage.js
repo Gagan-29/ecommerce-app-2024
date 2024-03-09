@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Layout from "../components/layout/layout";
-
+import { AiOutlineReload } from "react-icons/ai";
 import axios from "axios";
 import { Checkbox, Radio } from "antd";
 import { Prices } from "../components/layout/Prices";
@@ -204,7 +204,7 @@ const Homepage = () => {
                 ) : (
                   <>
                     {" "}
-                    Loadmore 
+                    Loadmore <AiOutlineReload />
                   </>
                 )}
               </button>
