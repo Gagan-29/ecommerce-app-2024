@@ -1,0 +1,10 @@
+.cat-btn{
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cat-btn:hover{
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
