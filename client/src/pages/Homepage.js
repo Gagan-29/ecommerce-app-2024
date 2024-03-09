@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 import { useCart } from "../context/cart";
 import toast from "react-hot-toast";
 import "../styles/Homepage.css";
-import { AiOutlineReload } from "react-icons/ai";
+
 const Homepage = () => {
   const navigate = useNavigate();
   const [cart, setCart] = useCart();
@@ -204,7 +204,7 @@ const Homepage = () => {
                 ) : (
                   <>
                     {" "}
-                    Loadmore <AiOutlineReload />
+                    Loadmore 
                   </>
                 )}
               </button>
